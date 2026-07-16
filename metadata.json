@@ -1,0 +1,6 @@
+{
+  "name": "MoneyMarketCap",
+  "description": "Financial news, cryptocurrency updates, market insights, and real-time trends built with a premium fintech design system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

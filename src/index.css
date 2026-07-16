@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Manrope", "Inter", sans-serif;
+  --font-serif: "Lora", Georgia, serif;
+  
+  --color-brand-primary: #9fe870;
+  --color-brand-on-primary: #0e0f0c;
+  --color-brand-primary-active: #cdffad;
+  --color-brand-primary-neutral: #c5edab;
+  --color-brand-primary-pale: #e2f6d5;
+  --color-brand-ink: #0e0f0c;
+  --color-brand-ink-deep: #163300;
+  --color-brand-body: #454745;
+  --color-brand-mute: #868685;
+  --color-brand-canvas: #ffffff;
+  --color-brand-canvas-soft: #e8ebe6;
+  
+  --color-brand-positive: #2ead4b;
+  --color-brand-positive-deep: #054d28;
+  --color-brand-warning: #ffd11a;
+  --color-brand-warning-deep: #b86700;
+  --color-brand-warning-content: #4a3b1c;
+  --color-brand-negative: #d03238;
+  --color-brand-negative-deep: #a72027;
+  
+  --color-accent-orange: #ffc091;
+  --color-accent-cyan: #38c8ff;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-canvas-soft);
+  color: var(--color-brand-ink);
+}
+
+.font-display-heavy {
+  font-family: var(--font-display);
+  font-weight: 900;
+}
